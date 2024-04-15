@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1331393525"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq -FiC:\Users\bilal\Desktop\Projet_SGBD_Barbé_Bilal\Interface2\lib\x86_64-win64 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 -FuC:\Users\bilal\Desktop\Projet_SGBD_Barbé_Bilal\Interface2\ -FUC:\Users\bilal\Desktop\Projet_SGBD_Barbé_Bilal\Interface2\lib\x86_64-win64\ -FEC:\Users\bilal\Desktop\Projet_SGBD_Barbé_Bilal\Interface2\ -oC:\Users\bilal\Desktop\Projet_SGBD_Barbé_Bilal\Interface2\Interface2.exe -dLCL -dLCLwin32 Interface2.lpr"/>
+</CONFIG>

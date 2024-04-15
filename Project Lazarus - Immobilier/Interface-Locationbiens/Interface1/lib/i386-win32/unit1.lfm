@@ -1,0 +1,331 @@
+object Form1: TForm1
+  Left = 551
+  Height = 902
+  Top = 112
+  Width = 1118
+  Caption = 'Interface 1'
+  ClientHeight = 902
+  ClientWidth = 1118
+  Color = clForm
+  DesignTimePPI = 144
+  LCLVersion = '3.2.0.0'
+  object DBGrid1: TDBGrid
+    Left = 48
+    Height = 381
+    Top = 112
+    Width = 815
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource1
+    ParentFont = False
+    TabOrder = 0
+  end
+  object DBGrid2: TDBGrid
+    Left = 48
+    Height = 187
+    Top = 600
+    Width = 815
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = DataSource2
+    ParentFont = False
+    TabOrder = 1
+  end
+  object lblId: TLabel
+    Left = 981
+    Height = 25
+    Top = 171
+    Width = 18
+    Caption = 'ID'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblNom: TLabel
+    Left = 965
+    Height = 25
+    Top = 227
+    Width = 40
+    Caption = 'Nom'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblPrenom: TLabel
+    Left = 949
+    Height = 25
+    Top = 275
+    Width = 62
+    Caption = 'Prenom'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblDomicile: TLabel
+    Left = 949
+    Height = 25
+    Top = 323
+    Width = 69
+    Caption = 'Domicile'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblDDN: TLabel
+    Left = 891
+    Height = 25
+    Top = 371
+    Width = 142
+    Caption = 'Date de naissance'
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtId: TEdit
+    Left = 1045
+    Height = 33
+    Top = 160
+    Width = 214
+    HideSelection = False
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 2
+  end
+  object edtNom: TEdit
+    Left = 1045
+    Height = 33
+    Top = 217
+    Width = 214
+    ParentFont = False
+    TabOrder = 3
+  end
+  object edtPrenom: TEdit
+    Left = 1045
+    Height = 33
+    Top = 275
+    Width = 214
+    ParentFont = False
+    TabOrder = 4
+  end
+  object edtDomicile: TEdit
+    Left = 1045
+    Height = 33
+    Top = 323
+    Width = 214
+    ParentFont = False
+    TabOrder = 5
+  end
+  object edtDDN: TEdit
+    Left = 1045
+    Height = 33
+    Top = 371
+    Width = 214
+    ParentFont = False
+    TabOrder = 6
+  end
+  object btnAjouter: TButton
+    Left = 1005
+    Height = 37
+    Top = 429
+    Width = 256
+    Caption = 'Ajouter'
+    ParentFont = False
+    TabOrder = 7
+    OnClick = btnAjouterClick
+  end
+  object btnSupprimer: TButton
+    Left = 1005
+    Height = 37
+    Top = 486
+    Width = 260
+    Caption = 'Supprimer'
+    Color = clRed
+    ParentFont = False
+    TabOrder = 8
+    OnClick = btnSupprimerClick
+  end
+  object lblNom2: TLabel
+    Left = 962
+    Height = 25
+    Top = 586
+    Width = 40
+    Caption = 'Nom'
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtNom2: TEdit
+    Left = 1036
+    Height = 33
+    Top = 579
+    Width = 214
+    ParentFont = False
+    TabOrder = 9
+  end
+  object edtDomicile2: TEdit
+    Left = 1036
+    Height = 33
+    Top = 637
+    Width = 214
+    ParentFont = False
+    TabOrder = 10
+  end
+  object edtCommune: TEdit
+    Left = 1036
+    Height = 33
+    Top = 694
+    Width = 214
+    ParentFont = False
+    TabOrder = 11
+  end
+  object edtPrix: TEdit
+    Left = 1036
+    Height = 33
+    Top = 752
+    Width = 214
+    ParentFont = False
+    TabOrder = 12
+  end
+  object edtSuperficie: TEdit
+    Left = 1036
+    Height = 33
+    Top = 800
+    Width = 214
+    ParentFont = False
+    TabOrder = 13
+  end
+  object lblDomicile2: TLabel
+    Left = 933
+    Height = 25
+    Top = 639
+    Width = 69
+    Caption = 'Domicile'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblCommune: TLabel
+    Left = 970
+    Height = 25
+    Top = 695
+    Width = 27
+    Caption = 'lieu'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblPrix: TLabel
+    Left = 978
+    Height = 25
+    Top = 751
+    Width = 28
+    Caption = 'Prix'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblSuperficie: TLabel
+    Left = 933
+    Height = 25
+    Top = 807
+    Width = 77
+    Caption = 'Superficie'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnRecherche: TButton
+    Left = 688
+    Height = 44
+    Top = 800
+    Width = 145
+    Caption = 'Recherche'
+    ParentFont = False
+    TabOrder = 14
+    OnClick = btnRechercheClick
+  end
+  object lblCon: TLabel
+    Left = 1084
+    Height = 25
+    Top = 88
+    Width = 112
+    Caption = 'pas connecte'
+    Color = 8388863
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+    OnClick = lblConClick
+  end
+  object btnConnection: TButton
+    Left = 1056
+    Height = 45
+    Top = 24
+    Width = 172
+    Caption = 'Connexion'
+    Color = 65408
+    ParentFont = False
+    TabOrder = 15
+    OnClick = btnConnectionClick
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 48
+    Height = 37
+    Top = 496
+    Width = 815
+    BevelOuter = bvNone
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 37
+    ClientWidth = 815
+    DataSource = DataSource1
+    OnClick = DBNavigator1Click
+    Options = []
+    ParentFont = False
+    TabOrder = 16
+  end
+  object DataSource1: TDataSource
+    DataSet = SQLQuery1
+    Left = 248
+    Top = 32
+  end
+  object SQLQuery1: TSQLQuery
+    PacketRecords = -1
+    FieldDefs = <>
+    Database = MySQL56Connection1
+    Transaction = SQLTransaction1
+    Options = [sqoKeepOpenOnCommit, sqoAutoApplyUpdates, sqoAutoCommit, sqoCancelUpdatesOnRefresh, sqoRefreshUsingSelect]
+    Params = <>
+    Macros = <>
+    Left = 363
+    Top = 32
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = MySQL56Connection1
+    Left = 498
+    Top = 32
+  end
+  object MySQL56Connection1: TMySQL56Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'locationbien'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    UserName = 'root'
+    HostName = 'localhost'
+    SkipLibraryVersionCheck = False
+    Left = 104
+    Top = 32
+  end
+  object DataSource2: TDataSource
+    DataSet = SQLQuery2
+    Left = 613
+    Top = 32
+  end
+  object SQLQuery2: TSQLQuery
+    FieldDefs = <>
+    Database = MySQL56Connection1
+    Transaction = SQLTransaction1
+    Params = <>
+    Macros = <>
+    Left = 709
+    Top = 32
+  end
+end
